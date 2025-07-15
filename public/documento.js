@@ -13,7 +13,7 @@ selecionarDocumento(nomeDocumento)
 textoEditor.addEventListener("keyup", () => {
     emitirTextoEditor({
         texto: textoEditor.value,
-        documento: nomeDocumento})
+        nomeDocumento})
 })
 
 function atualizaTextoEditor(texto){
